@@ -1,0 +1,144 @@
+.action-bar {
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	margin-bottom: 60px;
+}
+
+.active-tabs__container {
+	/* margin: 20px 10px; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 60px;
+}
+
+
+.active-tabs__container button {
+    min-width: 200px;
+    height: 50px;
+    /* margin-right: 20px; */
+}
+
+.active-tabs__container .active{
+    background-color: aquamarine;
+}
+
+
+
+.search__container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.search__container input {
+    width: 400px;
+    height: 30px;
+    margin: auto;
+}
+
+.block-dropdown__container {
+    margin: auto 10px;
+    height: 30px;
+}
+
+#dynamicDropdown {
+    font-size: large;
+}
+
+
+
+
+.choices__container {
+    margin: 0 20px;
+}
+
+.choice, .header{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+ .header {
+    font-size: large;
+    font-weight: bold;
+}
+
+.choices__container .body .choice{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.column {
+    padding: 0 10px;
+    margin: auto 0;
+}
+
+.column.serial {
+    min-width: 20px
+}
+.column.school {
+    min-width: 1000px;
+}
+
+.column.block {
+    min-width: 300px;
+    /* flex-grow: 1; */
+}
+
+.column.district {
+    min-width: 200px;
+}
+
+.column.selected input{
+    min-width: 50px;
+    height: 35px;
+}
+
+.column.priority input {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.column.distance {
+    min-width: 100px;
+}
+.column.distance input {
+	width: 50px;
+	font-size: larger;
+	height: 30px;
+    text-align: center;
+}
+
+
+.controls__container {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.controls__container button{
+    min-width: 100px;
+    min-height: 30px;
+    font-size: large;
+}
+
+
+
+
+#loadDataInput {
+    font-size: large;
+}
+
+
+.control-section.pagination span{
+    margin: 0 20px;
+}

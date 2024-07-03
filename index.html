@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+    </head>
+    <body>
+        <div class="root">
+            <div class="action-bar">
+                <div class="active-tabs__container">
+                    <div class="selection">
+                        <button class="active">Selection</button>
+                    </div>
+                    <div class="view"><button>View</button></div>
+                </div>
+                <div class="search__container">
+                    <!-- <span>Search</span> -->
+                    <div class="block-dropdown__container">
+                        <label for="dynamicDropdown">Select Block:</label>
+                        <select id="dynamicDropdown">
+                            <!-- Options will be dynamically generated here -->
+                        </select>
+                    </div>
+                    <div class="searchbox-div">
+                        <input
+                            type="text"
+                            class="searchbox"
+                            name="choice"
+                            placeholder="Search school"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="controls__container">
+                <div class="control-section basic">
+                    <button class="arrange">Arrange</button>
+                </div>
+
+                <div class="control-section pagination">
+                    <button class="prev-page"><</button>
+                    <span>Page</span>
+                    <button class="next-page">></button>
+                </div>
+
+                <div class="control-section save-section">
+                    <input type="file" id="loadDataInput" accept=".json" />
+                    <button class="save">Save</button>
+                </div>
+            </div>
+            <div class="choices__container">
+                <div class="header">
+                    <div class="column serial">Sr</div>
+                    <div class="column school">School</div>
+                    <div class="column block">Block</div>
+                    <div class="column district">District</div>
+                    <div class="column distance">Dis</div>
+                    <div class="column selected">Selected</div>
+                    <div class="column priority">Priority</div>
+                </div>
+                <div class="body"></div>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="./main.js"></script>
+</html>
